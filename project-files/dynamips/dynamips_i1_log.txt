@@ -1,0 +1,12 @@
+Jul 03 02:35:48.135 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 03 02:35:48.139 HYPERVISOR: Started on IP = localhost, TCP port = 64589.
+Jul 03 02:35:48.321 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 03 02:35:48.322 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Lenovo\GNS3\projects\task2\project-files\dynamips 
+Jul 03 02:35:48.326 GENERAL: working_dir=C:\Users\Lenovo\GNS3\projects\task2\project-files\dynamips
+Jul 03 02:35:48.326 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Jul 03 02:35:48.354 HYPERVISOR: exec_cmd: nio create_udp udp-0170a858-b817-46e1-9f2e-518884115065 10000 127.0.0.1 10001 
+Jul 03 02:35:48.355 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-0170a858-b817-46e1-9f2e-518884115065 
+Jul 03 02:35:48.367 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-0170a858-b817-46e1-9f2e-518884115065 1 
+Jul 03 02:35:48.413 HYPERVISOR: exec_cmd: nio create_udp udp-52f8e4d8-da72-4622-b9f2-ddd419fff377 10002 127.0.0.1 10003 
+Jul 03 02:35:48.413 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-52f8e4d8-da72-4622-b9f2-ddd419fff377 
+Jul 03 02:35:48.429 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-52f8e4d8-da72-4622-b9f2-ddd419fff377 1 
